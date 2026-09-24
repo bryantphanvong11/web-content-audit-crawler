@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / credentials
+.env
+*.env
+google-credentials.json
+*-credentials.json
+service-account*.json
+
+# Local data and generated reports
+data/output/
+data/raw/
+*.csv
+*.tsv
+*.json
+
+# Keep explicitly committed sample data
+!data/sample/
+!data/sample/**/*.csv
+!data/sample/**/*.json
+
+# Crawl checkpoints / progress files
+*progress*
+*checkpoint*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
