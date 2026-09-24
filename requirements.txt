@@ -1,0 +1,10 @@
+beautifulsoup4
+lxml
+requests
+rapidfuzz
+python-dotenv
+google-analytics-data
+google-auth
+google-api-python-client
+playwright
+axe-playwright-python
